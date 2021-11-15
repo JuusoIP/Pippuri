@@ -8,6 +8,12 @@
             <comment>Text</comment>
             <translation type="vanished">Hei</translation>
         </message>
+        <message>
+            <location filename="test_behavior/behavior.xar" line="0"/>
+            <source>Hei. Oletko valmis?</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
     </context>
     <context>
         <name>test_behavior/behavior.xar:/Say (1)</name>

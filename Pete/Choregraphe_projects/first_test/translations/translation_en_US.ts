@@ -31,6 +31,27 @@
             <comment>Text</comment>
             <translation type="obsolete">Hasta la vista baby</translation>
         </message>
+        <message>
+            <source>Hei. Mitä kuuluu? Olen Pippuri.</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Hei. Mitä kuuluu? Olen Pippuri.</translation>
+        </message>
+        <message>
+            <source>Hei. Oletko valmis noutamaan tilauksesi?</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Hei. Oletko valmis noutamaan tilauksesi?</translation>
+        </message>
+        <message>
+            <source>Hei. Seuraa minua.</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Hei. Seuraa minua.</translation>
+        </message>
+        <message>
+            <location filename="test_behavior/behavior.xar" line="0"/>
+            <source>Hei. Oletko valmis?</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Hei. Oletko valmis?</translation>
+        </message>
     </context>
     <context>
         <name>test_behavior/behavior.xar:/Say (1)</name>
