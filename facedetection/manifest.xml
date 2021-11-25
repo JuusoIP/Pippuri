@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="paavotesti-d3ae1d" version="0.0.0">
+<package uuid="facedetection-a3f9a0" version="0.0.0">
  <names>
   <name lang="en_US">Untitled</name>
  </names>
@@ -12,10 +12,6 @@
  <contents>
   <behaviorContent path="behavior_1">
    <userRequestable/>
-   <nature></nature>
-   <permissions/>
-  </behaviorContent>
-  <behaviorContent path="greeting">
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>

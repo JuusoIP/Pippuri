@@ -1,0 +1,20 @@
+topic: ~tervehtiminen()
+language: enu
+
+# Defining extra concepts out of words or group of words
+concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+u:(e:onStart) Hello, my name is pepper
+#u:(hello) How can I help you?
+u:(hello) Why did the blind man fall into the well $onStopped=1
+u:(package) Okay, follow me
+
+u:(guidance) Okay
+    
+u:(order) okay, let me know when you are ready

@@ -1,0 +1,17 @@
+topic: ~vahvistus()
+language: enu
+
+# Defining extra concepts out of words or group of words
+concept:(package) [package order]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+u:(package) Okay, follow me $onStopped=1
+
+u:(I need guidance) Okay
+    
+u:(I want to make an order) okay, let me know when you are ready
