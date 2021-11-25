@@ -31,4 +31,18 @@
             <translation type="unfinished">Because he couldn't see that well</translation>
         </message>
     </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Say (1)</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Why did the blind man fall into the well</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Why did the blind man fall into the well</translation>
+        </message>
+    </context>
 </TS>

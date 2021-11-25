@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="paavotesti-d3ae1d" version="0.0.0">
+<package version="0.0.0" uuid="paavotesti-d3ae1d">
  <names>
   <name lang="en_US">Untitled</name>
  </names>
@@ -12,12 +12,24 @@
  <contents>
   <behaviorContent path="behavior_1">
    <userRequestable/>
-   <nature></nature>
+   <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="greeting">
    <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
    <permissions/>
   </behaviorContent>
+  <dialogContent typeVersion="1.0" topicName="tervehtiminen">
+   <topic language="en_US" path="tervehtiminen/tervehtiminen_enu.top"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="Entertain">
+   <topic language="en_US" path="Entertain/Entertain_enu.top"/>
+  </dialogContent>
  </contents>
 </package>

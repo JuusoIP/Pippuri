@@ -12,9 +12,6 @@ concept:(hello) [hello hi hey "good morning" greetings]
 
 u:(e:onStart) Hello, my name is pepper
 #u:(hello) How can I help you?
-u:(hello) Why did the blind man fall into the well $onStopped=1
-u:(package) Okay, follow me
-
-u:(guidance) Okay
-    
-u:(order) okay, let me know when you are ready
+u:(guidance) Okay $Option=1
+u:(package) Okay, follow me $Option=3
+#u:(funny) Okay $Option=3
