@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.0" uuid="paavotesti-d3ae1d">
+<package uuid="paavotesti-d3ae1d" version="0.0.0">
  <names>
-  <name lang="en_US">Untitled</name>
+  <name lang="en_US">Main</name>
  </names>
  <supportedLanguages>
   <language>en_US</language>
@@ -13,23 +13,32 @@
   <behaviorContent path="behavior_1">
    <userRequestable/>
    <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="greeting">
    <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <dialogContent typeVersion="1.0" topicName="tervehtiminen">
-   <topic language="en_US" path="tervehtiminen/tervehtiminen_enu.top"/>
+   <topic path="tervehtiminen/tervehtiminen_enu.top" language="en_US"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="Entertain">
-   <topic language="en_US" path="Entertain/Entertain_enu.top"/>
+   <topic path="Entertain/Entertain_enu.top" language="en_US"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="vahvistus">
+   <topic path="vahvistus/vahvistus_enu.top" language="en_US"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+   <topic path="behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="HelloWorld">
+   <topic path="HelloWorld/HelloWorld_enu.top" language="en_US"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="Package">
+   <topic path="Package/Package_enu.top" language="en_US"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="Guidance">
+   <topic path="Guidance/Guidance_enu.top" language="en_US"/>
   </dialogContent>
  </contents>
 </package>

@@ -9,4 +9,5 @@ language: enu
 
 # Replying to speech
 #u:(~hello) ~hello
-u:(e:onStart) Hello $onStopped=1
+u:(e:onStart) Are you ready to receive your package? 
+u:(yes) Okay, follow me. $onStopped=1

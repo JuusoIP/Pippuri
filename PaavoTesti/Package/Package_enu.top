@@ -1,15 +1,16 @@
-topic: ~Entertain()
+topic: ~Package()
 language: enu
 
 # Defining extra concepts out of words or group of words
 #concept:(hello) [hello hi hey "good morning" greetings]
 
 # Catching inputs and triggering outputs
-#u:(e:onStart) $onStopped=1
+
+u:(yes) Okay, follow me. $onStopped=1
+
+u:(no) Okay, let me know when you are
+    ready.
 
 # Replying to speech
 #u:(~hello) ~hello
 
-u:(e:onStart) Do you want me to play an instrument or tell a joke?
-u1:(joke) $Option=1
-u1:(guitar) $Option=2

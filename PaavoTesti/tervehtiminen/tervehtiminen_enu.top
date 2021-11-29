@@ -10,8 +10,7 @@ concept:(hello) [hello hi hey "good morning" greetings]
 # Replying to speech
 #u:(~hello) ~hello
 
-u:(e:onStart) Hello, my name is pepper
-#u:(hello) How can I help you?
-u:(guidance) Okay $Option=1
-u:(package) Okay, follow me $Option=3
-#u:(funny) Okay $Option=3
+u:(e:onStart) Hello, my name is pepper. How can I help you?
+    u1:(guidance) Okay.$Option=1
+    u1:(package) Okay.$Option=2
+    u1:(entertain) Okay.$Option=3

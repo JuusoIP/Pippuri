@@ -1,4 +1,4 @@
-topic: ~Entertain()
+topic: ~Guidance()
 language: enu
 
 # Defining extra concepts out of words or group of words
@@ -10,6 +10,6 @@ language: enu
 # Replying to speech
 #u:(~hello) ~hello
 
-u:(e:onStart) Do you want me to play an instrument or tell a joke?
-u1:(joke) $Option=1
-u1:(guitar) $Option=2
+u:(e:onStart) What is your issue? 
+
+u:(laptop) Computers can be found in electronics department. Department's id C2. $onStopped=1

@@ -11,6 +11,8 @@
         <Dialog name="vahvistus" src="vahvistus/vahvistus.dlg" />
         <Dialog name="tervehtiminen" src="tervehtiminen/tervehtiminen.dlg" />
         <Dialog name="Entertain" src="Entertain/Entertain.dlg" />
+        <Dialog name="Package" src="Package/Package.dlg" />
+        <Dialog name="Guidance" src="Guidance/Guidance.dlg" />
     </Dialogs>
     <Resources>
         <File name="swiftswords_ext" src="behavior_1/swiftswords_ext.mp3" />
@@ -18,6 +20,7 @@
         <File name="epicsax" src="behavior_1/epicsax.ogg" />
         <File name="hemulin nauru" src="hemulin nauru.mp3" />
         <File name="tilutus" src="tilutus.mp3" />
+        <File name="choice_sentences" src="behavior_1/Aldebaran/choice_sentences.xml" />
     </Resources>
     <Topics>
         <Topic name="HelloWorld_enu" src="HelloWorld/HelloWorld_enu.top" topicName="HelloWorld" language="en_US" />
@@ -25,6 +28,8 @@
         <Topic name="vahvistus_enu" src="vahvistus/vahvistus_enu.top" topicName="vahvistus" language="en_US" />
         <Topic name="tervehtiminen_enu" src="tervehtiminen/tervehtiminen_enu.top" topicName="tervehtiminen" language="en_US" />
         <Topic name="Entertain_enu" src="Entertain/Entertain_enu.top" topicName="Entertain" language="en_US" />
+        <Topic name="Package_enu" src="Package/Package_enu.top" topicName="Package" language="en_US" />
+        <Topic name="Guidance_enu" src="Guidance/Guidance_enu.top" topicName="Guidance" language="en_US" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">
