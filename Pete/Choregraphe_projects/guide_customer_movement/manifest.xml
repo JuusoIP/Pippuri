@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="guide_customer_movement-f0df25" version="0.0.1">
+ <names>
+  <name lang="en_US">guide_customer_movement</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">Guide customer to the desk</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="guide_customer_movement">
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">guide_customer_movement</name>
+   </names>
+   <triggerSentences>
+    <sentence lang="en_US">guide me</sentence>
+   </triggerSentences>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="Localization">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.5" maxVersion="2.5"/>
+  <robotRequirement model="JULIETTE_Y20"/>
+ </requirements>
+</package>

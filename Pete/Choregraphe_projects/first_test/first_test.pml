@@ -12,6 +12,7 @@
         <File name="index" src="html/index.html" />
         <File name="Pepper_QR" src="html/Pepper_QR.png" />
         <File name="Pepper_QR" src="html/Pepper_QR.jpg" />
+        <File name="choice_sentences" src="test_behavior/Aldebaran/choice_sentences.xml" />
     </Resources>
     <Topics>
         <Topic name="ExampleDialog_enu" src="test_behavior/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />

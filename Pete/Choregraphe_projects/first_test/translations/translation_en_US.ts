@@ -47,10 +47,9 @@
             <translation type="obsolete">Hei. Seuraa minua.</translation>
         </message>
         <message>
-            <location filename="test_behavior/behavior.xar" line="0"/>
             <source>Hei. Oletko valmis?</source>
             <comment>Text</comment>
-            <translation type="unfinished">Hei. Oletko valmis?</translation>
+            <translation type="obsolete">Hei. Oletko valmis?</translation>
         </message>
     </context>
     <context>

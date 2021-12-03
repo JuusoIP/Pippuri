@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.2" uuid="first_test-938c7b">
+<package uuid="first_test-938c7b" version="0.0.2">
  <names>
   <name lang="en_US">first_test_app</name>
  </names>
@@ -18,9 +18,6 @@
  <contents>
   <behaviorContent path="test_behavior">
    <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="greeting">
@@ -32,9 +29,6 @@
     <description lang="en_US">Greeting the customer</description>
     <description lang="fi_FI">Asiakkaan tervehtiminen</description>
    </descriptions>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <dialogContent typeVersion="1.0" topicName="ExampleDialog">
@@ -42,7 +36,7 @@
   </dialogContent>
  </contents>
  <requirements>
-  <naoqiRequirement maxVersion="2.5" minVersion="2.5"/>
+  <naoqiRequirement minVersion="2.5" maxVersion="2.5"/>
   <robotRequirement model="JULIETTE_Y20"/>
  </requirements>
 </package>
