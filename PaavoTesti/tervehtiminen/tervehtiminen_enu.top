@@ -8,9 +8,9 @@ concept:(hello) [hello hi hey "good morning" greetings]
 #u:(e:onStart) $onStopped=1
 
 # Replying to speech
-#u:(~hello) ~hello
 
 u:(e:onStart) Hello, my name is pepper. How can I help you?
     u1:(guidance) Okay.$Option=1
-    u1:(package) Okay.$Option=2
+    u1:(package) Okay. Please scan this qr code.$Option=2
     u1:(entertain) Okay.$Option=3
+    

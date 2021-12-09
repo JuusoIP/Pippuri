@@ -1,8 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="paavotesti-d3ae1d" version="0.0.0">
+<package uuid="test_app" version="0.0.2">
  <names>
-  <name lang="en_US">Main</name>
+  <name lang="en_US">test_app</name>
  </names>
+ <descriptions>
+  <description lang="en_US">desc</description>
+ </descriptions>
  <supportedLanguages>
   <language>en_US</language>
  </supportedLanguages>
@@ -13,54 +16,50 @@
   <behaviorContent path="behavior_1">
    <userRequestable/>
    <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Behavior</name>
+   </names>
+   <triggerSentences>
+    <sentence lang="en_US">Hello</sentence>
+   </triggerSentences>
+   <loadingResponses/>
+   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="greeting">
    <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
    <permissions/>
   </behaviorContent>
-<<<<<<< HEAD
-  <dialogContent topicName="tervehtiminen" typeVersion="1.0">
-   <topic language="en_US" path="tervehtiminen/tervehtiminen_enu.top"/>
-  </dialogContent>
-  <dialogContent topicName="Entertain" typeVersion="1.0">
-   <topic language="en_US" path="Entertain/Entertain_enu.top"/>
-  </dialogContent>
-  <dialogContent topicName="vahvistus" typeVersion="1.0">
-   <topic language="en_US" path="vahvistus/vahvistus_enu.top"/>
-  </dialogContent>
-  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
-   <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
-  </dialogContent>
-  <dialogContent topicName="HelloWorld" typeVersion="1.0">
+  <dialogContent typeVersion="1.0" topicName="HelloWorld">
    <topic language="en_US" path="HelloWorld/HelloWorld_enu.top"/>
   </dialogContent>
-  <dialogContent topicName="Package" typeVersion="1.0">
-   <topic language="en_US" path="Package/Package_enu.top"/>
+  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+   <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
   </dialogContent>
-  <dialogContent topicName="Guidance" typeVersion="1.0">
-=======
+  <dialogContent typeVersion="1.0" topicName="vahvistus">
+   <topic language="en_US" path="vahvistus/vahvistus_enu.top"/>
+  </dialogContent>
   <dialogContent typeVersion="1.0" topicName="tervehtiminen">
    <topic language="en_US" path="tervehtiminen/tervehtiminen_enu.top"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="Entertain">
    <topic language="en_US" path="Entertain/Entertain_enu.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="vahvistus">
-   <topic language="en_US" path="vahvistus/vahvistus_enu.top"/>
-  </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
-   <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
-  </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="HelloWorld">
-   <topic language="en_US" path="HelloWorld/HelloWorld_enu.top"/>
-  </dialogContent>
   <dialogContent typeVersion="1.0" topicName="Package">
    <topic language="en_US" path="Package/Package_enu.top"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="Guidance">
->>>>>>> 44c1fd4ac70b6a3424f3e68b46c1512f1280abf3
    <topic language="en_US" path="Guidance/Guidance_enu.top"/>
   </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="Confirm">
+   <topic language="en_US" path="Confirm/Confirm_enu.top"/>
+  </dialogContent>
  </contents>
+ <requirements>
+  <naoqiRequirement maxVersion="2.5" minVersion="2.5"/>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
 </package>
