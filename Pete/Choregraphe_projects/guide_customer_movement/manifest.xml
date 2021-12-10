@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="guide_customer_movement-f0df25" version="0.0.1">
+<package version="0.0.1" uuid="guide_customer_movement-f0df25">
  <names>
   <name lang="en_US">guide_customer_movement</name>
  </names>

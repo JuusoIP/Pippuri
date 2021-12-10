@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="first_test-938c7b" version="0.0.2">
+<package version="0.0.2" uuid="first_test-938c7b">
  <names>
   <name lang="en_US">first_test_app</name>
  </names>
@@ -32,7 +32,7 @@
    <permissions/>
   </behaviorContent>
   <dialogContent typeVersion="1.0" topicName="ExampleDialog">
-   <topic language="en_US" path="test_behavior/ExampleDialog/ExampleDialog_enu.top"/>
+   <topic path="test_behavior/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
   </dialogContent>
  </contents>
  <requirements>
