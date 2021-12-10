@@ -13,6 +13,7 @@
         <Dialog name="Entertain" src="Entertain/Entertain.dlg" />
         <Dialog name="Package" src="Package/Package.dlg" />
         <Dialog name="Guidance" src="Guidance/Guidance.dlg" />
+        <Dialog name="Confirm" src="Confirm/Confirm.dlg" />
     </Dialogs>
     <Resources>
         <File name="swiftswords_ext" src="behavior_1/swiftswords_ext.mp3" />
@@ -21,6 +22,14 @@
         <File name="hemulin nauru" src="hemulin nauru.mp3" />
         <File name="tilutus" src="tilutus.mp3" />
         <File name="choice_sentences" src="behavior_1/Aldebaran/choice_sentences.xml" />
+        <File name="confirm" src="html/pictures/confirm.jpg" />
+        <File name="entertainment" src="html/pictures/entertainment.jpg" />
+        <File name="follow_me" src="html/pictures/follow_me.jpg" />
+        <File name="scan_qr" src="html/pictures/scan_qr.jpg" />
+        <File name="thank_you" src="html/pictures/thank_you.jpg" />
+        <File name="welcome" src="html/pictures/welcome.jpg" />
+        <File name="to_desk" src="to_desk.pmt" />
+        <File name="to_home" src="to_home.pmt" />
     </Resources>
     <Topics>
         <Topic name="HelloWorld_enu" src="HelloWorld/HelloWorld_enu.top" topicName="HelloWorld" language="en_US" />
@@ -30,6 +39,7 @@
         <Topic name="Entertain_enu" src="Entertain/Entertain_enu.top" topicName="Entertain" language="en_US" />
         <Topic name="Package_enu" src="Package/Package_enu.top" topicName="Package" language="en_US" />
         <Topic name="Guidance_enu" src="Guidance/Guidance_enu.top" topicName="Guidance" language="en_US" />
+        <Topic name="Confirm_enu" src="Confirm/Confirm_enu.top" topicName="Confirm" language="en_US" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">

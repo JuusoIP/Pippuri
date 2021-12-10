@@ -1,4 +1,4 @@
-topic: ~Guidance()
+topic: ~Aloitus()
 language: enu
 
 # Defining extra concepts out of words or group of words
@@ -8,8 +8,11 @@ language: enu
 #u:(e:onStart) $onStopped=1
 
 # Replying to speech
-#u:(~hello) ~hello
+u:(hello) hello
 
-u:(e:onStart) What are you looking for? 
+u:(entertain) okay $onStopped=1
 
-u:(laptop) Computers can be found in electronics department. Department's id C2. $onStopped=1
+u:(guidance) okay $onStopped=2
+
+u:(package) okay $onStopped=3
+

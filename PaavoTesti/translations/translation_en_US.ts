@@ -10,11 +10,38 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/Entertainment/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Because he couldn't see that well</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Because he couldn't see that well</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Entertainment/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Why did the blind man fall into the well</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Why did the blind man fall into the well</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Face Detection/Say</name>
         <message>
             <source>Hello</source>
             <comment>Text</comment>
             <translation type="vanished">Hello</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Package/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Are you ready to receive your package?</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Are you ready to receive your package?</translation>
         </message>
     </context>
     <context>
@@ -25,10 +52,9 @@
             <translation type="vanished">Hello</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Because he couldn't see that well</source>
             <comment>Text</comment>
-            <translation type="unfinished">Because he couldn't see that well</translation>
+            <translation type="obsolete">Because he couldn't see that well</translation>
         </message>
     </context>
     <context>
@@ -39,10 +65,9 @@
             <translation type="vanished">Hello</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Why did the blind man fall into the well</source>
             <comment>Text</comment>
-            <translation type="unfinished">Why did the blind man fall into the well</translation>
+            <translation type="obsolete">Why did the blind man fall into the well</translation>
         </message>
     </context>
     <context>
@@ -53,10 +78,9 @@
             <translation type="vanished">Hello</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Are you ready to receive your package?</source>
             <comment>Text</comment>
-            <translation type="unfinished">Are you ready to receive your package?</translation>
+            <translation type="obsolete">Are you ready to receive your package?</translation>
         </message>
     </context>
 </TS>

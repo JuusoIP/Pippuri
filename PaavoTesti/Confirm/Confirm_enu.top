@@ -1,4 +1,4 @@
-topic: ~Guidance()
+topic: ~Confirm()
 language: enu
 
 # Defining extra concepts out of words or group of words
@@ -9,7 +9,6 @@ language: enu
 
 # Replying to speech
 #u:(~hello) ~hello
-
-u:(e:onStart) What are you looking for? 
-
-u:(laptop) Computers can be found in electronics department. Department's id C2. $onStopped=1
+u:(e:onStart) Have you received your package?
+    u1:(yes) Okay.$Option=1
+    u1:(no) Okay let me know when you are ready.$Option=2
