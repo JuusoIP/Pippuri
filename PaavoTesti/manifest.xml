@@ -22,15 +22,10 @@
    <triggerSentences>
     <sentence lang="en_US">Hello</sentence>
    </triggerSentences>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="greeting">
    <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <dialogContent typeVersion="1.0" topicName="HelloWorld">
