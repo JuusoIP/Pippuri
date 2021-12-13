@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.0" uuid="joke1-1ea013">
+<package uuid="untitled-dc3f6b" version="0.0.0">
  <names>
-  <name lang="en_US">Wavingtest</name>
+  <name lang="en_US">Untitled</name>
  </names>
  <supportedLanguages>
   <language>en_US</language>
@@ -12,13 +12,7 @@
  <contents>
   <behaviorContent path="behavior_1">
    <userRequestable/>
-   <nature>solitary</nature>
-   <names>
-    <name lang="en_US">behavior_1</name>
-   </names>
-   <autonomous>
-    <condition purpose="launchTrigger"><![CDATA[('Launchpad/WavingDetection' == 1)]]></condition>
-   </autonomous>
+   <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
  </contents>

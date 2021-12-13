@@ -15,6 +15,7 @@
         <Dialog name="Guidance" src="Guidance/Guidance.dlg" />
         <Dialog name="Confirm" src="Confirm/Confirm.dlg" />
         <Dialog name="After_entertainment" src="After_entertainment/After_entertainment.dlg" />
+        <Dialog name="ready" src="ready/ready.dlg" />
     </Dialogs>
     <Resources>
         <File name="swiftswords_ext" src="behavior_1/swiftswords_ext.mp3" />
@@ -42,6 +43,7 @@
         <Topic name="Guidance_enu" src="Guidance/Guidance_enu.top" topicName="Guidance" language="en_US" />
         <Topic name="Confirm_enu" src="Confirm/Confirm_enu.top" topicName="Confirm" language="en_US" />
         <Topic name="After_entertainment_enu" src="After_entertainment/After_entertainment_enu.top" topicName="After_entertainment" language="en_US" />
+        <Topic name="ready_enu" src="ready/ready_enu.top" topicName="ready" language="en_US" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">

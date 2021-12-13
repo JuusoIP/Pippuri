@@ -9,6 +9,6 @@ language: enu
 
 # Replying to speech
 #u:(~hello) ~hello
-u:(e:onStart) Have you received your package?
-    u1:(yes) Okay.$Option=1
-    u1:(no) Okay let me know when you are ready.$Option=2
+u:(e:onStart) Wait here for your package? Do you want to hear a joke while we are waiting for your package?
+    u1:(yes) Okay.$Option=2
+    u1:(no) Okay. let me know when you are ready.$Option=1

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.2" uuid="test_app">
+<package uuid="test_app" version="0.0.2">
  <names>
   <name lang="en_US">test_app</name>
  </names>
@@ -28,29 +28,32 @@
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
-  <dialogContent topicName="HelloWorld" typeVersion="1.0">
-   <topic path="HelloWorld/HelloWorld_enu.top" language="en_US"/>
+  <dialogContent typeVersion="1.0" topicName="HelloWorld">
+   <topic language="en_US" path="HelloWorld/HelloWorld_enu.top"/>
   </dialogContent>
-  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
-   <topic path="behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
+  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+   <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
   </dialogContent>
-  <dialogContent topicName="vahvistus" typeVersion="1.0">
-   <topic path="vahvistus/vahvistus_enu.top" language="en_US"/>
+  <dialogContent typeVersion="1.0" topicName="vahvistus">
+   <topic language="en_US" path="vahvistus/vahvistus_enu.top"/>
   </dialogContent>
-  <dialogContent topicName="tervehtiminen" typeVersion="1.0">
-   <topic path="tervehtiminen/tervehtiminen_enu.top" language="en_US"/>
+  <dialogContent typeVersion="1.0" topicName="tervehtiminen">
+   <topic language="en_US" path="tervehtiminen/tervehtiminen_enu.top"/>
   </dialogContent>
-  <dialogContent topicName="Entertain" typeVersion="1.0">
-   <topic path="Entertain/Entertain_enu.top" language="en_US"/>
+  <dialogContent typeVersion="1.0" topicName="Entertain">
+   <topic language="en_US" path="Entertain/Entertain_enu.top"/>
   </dialogContent>
-  <dialogContent topicName="Package" typeVersion="1.0">
-   <topic path="Package/Package_enu.top" language="en_US"/>
+  <dialogContent typeVersion="1.0" topicName="Package">
+   <topic language="en_US" path="Package/Package_enu.top"/>
   </dialogContent>
-  <dialogContent topicName="Guidance" typeVersion="1.0">
-   <topic path="Guidance/Guidance_enu.top" language="en_US"/>
+  <dialogContent typeVersion="1.0" topicName="Guidance">
+   <topic language="en_US" path="Guidance/Guidance_enu.top"/>
   </dialogContent>
-  <dialogContent topicName="Confirm" typeVersion="1.0">
-   <topic path="Confirm/Confirm_enu.top" language="en_US"/>
+  <dialogContent typeVersion="1.0" topicName="Confirm">
+   <topic language="en_US" path="Confirm/Confirm_enu.top"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="ready">
+   <topic language="en_US" path="ready/ready_enu.top"/>
   </dialogContent>
  </contents>
  <requirements>
