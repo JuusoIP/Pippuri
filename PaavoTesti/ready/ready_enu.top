@@ -1,4 +1,4 @@
-topic: ~Joke()
+topic: ~ready()
 language: enu
 
 # Defining extra concepts out of words or group of words
@@ -8,6 +8,4 @@ language: enu
 #u:(e:onStart) $onStopped=1
 
 # Replying to speech
-#u:(~hello) ~hello
-
-u:(hello) Hello, how are you? $onStopped=1
+u:(Ready) Have a nice day and welcome back again$onStopped=1

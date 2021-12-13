@@ -12,15 +12,20 @@
     <context>
         <name>behavior_1/behavior.xar:/Say</name>
         <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation type="vanished">Hello</translation>
+            <translation>Hello</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Because he couldn't see that well</source>
             <comment>Text</comment>
-            <translation type="unfinished">Because he couldn't see that well</translation>
+            <translation type="obsolete">Because he couldn't see that well</translation>
+        </message>
+        <message>
+            <source>What are you waving at?</source>
+            <comment>Text</comment>
+            <translation type="obsolete">What are you waving at?</translation>
         </message>
     </context>
 </TS>
