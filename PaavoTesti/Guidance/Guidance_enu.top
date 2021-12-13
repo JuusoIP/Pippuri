@@ -2,7 +2,10 @@ topic: ~Guidance()
 language: enu
 
 # Defining extra concepts out of words or group of words
-#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(fruits) [banana orange apple fruits fruit]
+concept:(cold) [milk yougurt cream quark "sour cream"]
+concept:(yes) [yes yup yea "yes please"]
+concept:(no) [no nope "no thanks"]
 
 # Catching inputs and triggering outputs
 #u:(e:onStart) $onStopped=1
@@ -10,6 +13,11 @@ language: enu
 # Replying to speech
 #u:(~hello) ~hello
 
-u:(e:onStart) What are you looking for? 
+u:(e:onStart) %looking_for What are you looking for? 
 
-u:(laptop) Computers can be found in electronics department. Department's id C2. $onStopped=1
+u:(~fruits) Fruits can be found in section C2. Do you need more guidance?
+u:(~cold) Cold products can be found in section A1. Do you need more guidance?
+
+u:(~yes) Okay. ^goto(looking_for)
+u:(~no) Okay. Have a nice day? $onStopped=1
+

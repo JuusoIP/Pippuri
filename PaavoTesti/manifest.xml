@@ -28,28 +28,28 @@
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
-  <dialogContent typeVersion="1.0" topicName="HelloWorld">
+  <dialogContent topicName="HelloWorld" typeVersion="1.0">
    <topic path="HelloWorld/HelloWorld_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
    <topic path="behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="vahvistus">
+  <dialogContent topicName="vahvistus" typeVersion="1.0">
    <topic path="vahvistus/vahvistus_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="tervehtiminen">
+  <dialogContent topicName="tervehtiminen" typeVersion="1.0">
    <topic path="tervehtiminen/tervehtiminen_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="Entertain">
+  <dialogContent topicName="Entertain" typeVersion="1.0">
    <topic path="Entertain/Entertain_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="Package">
+  <dialogContent topicName="Package" typeVersion="1.0">
    <topic path="Package/Package_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="Guidance">
+  <dialogContent topicName="Guidance" typeVersion="1.0">
    <topic path="Guidance/Guidance_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="Confirm">
+  <dialogContent topicName="Confirm" typeVersion="1.0">
    <topic path="Confirm/Confirm_enu.top" language="en_US"/>
   </dialogContent>
  </contents>

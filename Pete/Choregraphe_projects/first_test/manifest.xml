@@ -31,7 +31,7 @@
    </descriptions>
    <permissions/>
   </behaviorContent>
-  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
    <topic path="test_behavior/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
   </dialogContent>
  </contents>

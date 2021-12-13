@@ -2,7 +2,7 @@ topic: ~After_entertainment()
 language: enu
 
 # Defining extra concepts out of words or group of words
-#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(hello) [hello hi hey "good morning" greetings]
 
 # Catching inputs and triggering outputs
 u:(e:onStart) Fun. Wasn't it. What do you want to do next?
