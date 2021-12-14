@@ -6,12 +6,14 @@ concept:(hello) [hello hi hey "good morning" greetings]
 concept:(package) [package "my package" "want my package"]
 concept:(entertain) [entertain "entertain me" entertainment]
 concept:(guidance) [guidance "need guidance" desk "the desk"]
+concept:(nothing) [nothing "nothing thanks" bye "bye bye"]
 
 # Catching inputs and triggering outputs
 u:(e:onStart) Fun. Wasn't it. What do you want to do next?
     u1:(~guidance) Okay.$Option=1
-    u1:(~package) Okay. Please scan this qr code.$Option=2
-    u1:(~entertain) Okay.$Option=3 
+    u1:(~package) Okay. Please scan this qr code. $Option=2
+    u1:(~entertain) Okay.$Option=3
+    u1:(~nothing) Okay. Have a nice day. $Option=4
 
 # Replying to speech
 u:(~hello) ~hello

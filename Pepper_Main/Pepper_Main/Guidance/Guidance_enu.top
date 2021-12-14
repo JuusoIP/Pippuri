@@ -2,10 +2,10 @@ topic: ~Guidance()
 language: enu
 
 # Defining extra concepts out of words or group of words
-concept:(fruits) [banana orange apple fruits fruit]
-concept:(cold) [milk yogurt cream quark "sour cream" "cold products" cold]
-concept:(yes) [yes yup yea "yes please" yeah yep]
-concept:(no) [no nope "no thanks" nah]
+concept:(fruits) [banana orange apple fruits]
+concept:(cold) [milk yogurt "ice cream" cream "sour cream" "cold products" cold]
+concept:(yes) [yes "yes please" yeah]
+concept:(no) [no "no thanks"]
 
 # Catching inputs and triggering outputs
 #u:(e:onStart) $onStopped=1

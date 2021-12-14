@@ -3,10 +3,14 @@ language: enu
 
 # Defining extra concepts out of words or group of words
 #concept:(hello) [hello hi hey "good morning" greetings]
-concept:(ready) [ready "i'm ready" "yes i'm ready" redi yep]
+concept:(ready) [ready "i'm ready" "yes i'm ready" redi]
+concept:(no) [no nope]
+concept:(entertain) [entertain "entertain me" entertainment]
 
 # Catching inputs and triggering outputs
 u:(e:onStart) Let me know when you are ready.
 
 # Replying to speech
 u:(~ready) Have a nice day and welcome back again $onStopped=1
+u:(~no) Okay, let me know when you are ready
+u:(~entertain) $entertain=1

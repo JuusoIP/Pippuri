@@ -3,6 +3,9 @@ language: enu
 
 # Defining extra concepts out of words or group of words
 #concept:(hello) [hello hi hey "good morning" greetings]
+concept:(joke) [joke "tell me a joke" "a joke"]
+concept:(guitar) [guitar "play guitar"]
+concept:(sax) [sax "play sax" "play saxophone" saxophone]
 
 # Catching inputs and triggering outputs
 #u:(e:onStart) $onStopped=1
@@ -11,5 +14,6 @@ language: enu
 #u:(~hello) ~hello
 
 u:(e:onStart) Do you want me to play an instrument or tell a joke?
-u1:(joke) $Option=1
-u1:(guitar) $Option=2
+    u1:(~joke) $Option=1
+    u1:(~guitar) $Option=2
+    u1:(~sax) $Option=3
