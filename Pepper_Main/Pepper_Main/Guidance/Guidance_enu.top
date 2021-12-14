@@ -4,7 +4,7 @@ language: enu
 # Defining extra concepts out of words or group of words
 concept:(fruits) [banana orange apple fruits fruit]
 concept:(cold) [milk yogurt cream quark "sour cream" "cold products" cold]
-concept:(yes) [yes yup yea "yes please" yeah]
+concept:(yes) [yes yup yea "yes please" yeah yep]
 concept:(no) [no nope "no thanks" nah]
 
 # Catching inputs and triggering outputs

@@ -24,14 +24,16 @@
         <File name="hemulin nauru" src="hemulin nauru.mp3" />
         <File name="tilutus" src="tilutus.mp3" />
         <File name="choice_sentences" src="behavior_1/Aldebaran/choice_sentences.xml" />
+        <File name="to_desk" src="to_desk.pmt" />
+        <File name="to_home" src="to_home.pmt" />
         <File name="confirm" src="html/pictures/confirm.jpg" />
+        <File name="confirm_entertainment" src="html/pictures/confirm_entertainment.jpg" />
         <File name="entertainment" src="html/pictures/entertainment.jpg" />
         <File name="follow_me" src="html/pictures/follow_me.jpg" />
+        <File name="ready" src="html/pictures/ready.jpg" />
         <File name="scan_qr" src="html/pictures/scan_qr.jpg" />
         <File name="thank_you" src="html/pictures/thank_you.jpg" />
         <File name="welcome" src="html/pictures/welcome.jpg" />
-        <File name="to_desk" src="to_desk.pmt" />
-        <File name="to_home" src="to_home.pmt" />
     </Resources>
     <Topics>
         <Topic name="HelloWorld_enu" src="HelloWorld/HelloWorld_enu.top" topicName="HelloWorld" language="en_US" />

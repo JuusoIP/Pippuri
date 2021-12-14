@@ -3,12 +3,15 @@ language: enu
 
 # Defining extra concepts out of words or group of words
 concept:(hello) [hello hi hey "good morning" greetings]
+concept:(package) [package "my package" "want my package"]
+concept:(entertain) [entertain "entertain me" entertainment]
+concept:(guidance) [guidance "need guidance" desk "the desk"]
 
 # Catching inputs and triggering outputs
 u:(e:onStart) Fun. Wasn't it. What do you want to do next?
-    u1:(guidance) Okay.$Option=1
-    u1:(package) Okay. Please scan this qr code.$Option=2
-    u1:(entertain) Okay.$Option=3
+    u1:(~guidance) Okay.$Option=1
+    u1:(~package) Okay. Please scan this qr code.$Option=2
+    u1:(~entertain) Okay.$Option=3 
 
 # Replying to speech
 u:(~hello) ~hello
