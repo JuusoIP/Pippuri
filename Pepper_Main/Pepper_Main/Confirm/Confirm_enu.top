@@ -1,0 +1,16 @@
+topic: ~Confirm()
+language: enu
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(yes) [yes yup yea "yes please" yeah]
+concept:(no) [no nope "no thanks" nah]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+u:(e:onStart) Please wait here for your package? Do you want me to entertain you while we are waiting for your package?
+    u1:(~yes) Okay.$Option=2
+    u1:(~no) Okay. let me know when you have received your package.$Option=1

@@ -1,0 +1,23 @@
+topic: ~Guidance()
+language: enu
+
+# Defining extra concepts out of words or group of words
+concept:(fruits) [banana orange apple fruits fruit]
+concept:(cold) [milk yogurt cream quark "sour cream" "cold products" cold]
+concept:(yes) [yes yup yea "yes please" yeah]
+concept:(no) [no nope "no thanks" nah]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+u:(e:onStart) %looking_for What are you looking for? 
+    u1:(~fruits) Fruits can be found in section C2. Do you need more guidance?
+        u2:(~yes) Okay. ^goto(looking_for)
+        u2:(~no) Okay. Have a nice day? $onStopped=1
+    u1:(~cold) Cold products can be found in section A1. Do you need more guidance?
+        u2:(~yes) Okay. ^goto(looking_for)
+        u2:(~no) Okay. Have a nice day? $onStopped=1
+

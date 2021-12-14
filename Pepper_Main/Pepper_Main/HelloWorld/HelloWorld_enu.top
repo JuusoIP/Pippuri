@@ -1,12 +1,13 @@
-topic: ~ready()
+topic: ~HelloWorld()
 language: enu
 
 # Defining extra concepts out of words or group of words
 #concept:(hello) [hello hi hey "good morning" greetings]
-concept:(ready) [ready "i'm ready" "yes i'm ready" redi]
 
 # Catching inputs and triggering outputs
 #u:(e:onStart) $onStopped=1
 
 # Replying to speech
-u:(~ready) Have a nice day and welcome back again $onStopped=1
+#u:(~hello) ~hello
+u:(e:onStart) Are you ready to receive your package? 
+u:(yes) Okay, follow me. $onStopped=1
