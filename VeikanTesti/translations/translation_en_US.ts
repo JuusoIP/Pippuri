@@ -2,6 +2,15 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="en_US">
     <context>
+        <name>MQTT/behavior.xar:/Say</name>
+        <message>
+            <location filename="MQTT/behavior.xar" line="0"/>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation>Hello</translation>
+        </message>
+    </context>
+    <context>
         <name>ReadQRCode/behavior.xar:/Say</name>
         <message>
             <source>Hello</source>

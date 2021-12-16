@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.2" uuid="test_app">
+<package uuid="test_app" version="0.0.2">
  <names>
   <name lang="en_US">test_app</name>
  </names>
@@ -29,35 +29,35 @@
    <permissions/>
   </behaviorContent>
   <dialogContent topicName="HelloWorld" typeVersion="1.0">
-   <topic language="en_US" path="HelloWorld/HelloWorld_enu.top"/>
+   <topic path="HelloWorld/HelloWorld_enu.top" language="en_US"/>
   </dialogContent>
   <dialogContent topicName="ExampleDialog" typeVersion="1.0">
-   <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
+   <topic path="behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
   </dialogContent>
   <dialogContent topicName="vahvistus" typeVersion="1.0">
-   <topic language="en_US" path="vahvistus/vahvistus_enu.top"/>
+   <topic path="vahvistus/vahvistus_enu.top" language="en_US"/>
   </dialogContent>
   <dialogContent topicName="tervehtiminen" typeVersion="1.0">
-   <topic language="en_US" path="tervehtiminen/tervehtiminen_enu.top"/>
+   <topic path="tervehtiminen/tervehtiminen_enu.top" language="en_US"/>
   </dialogContent>
   <dialogContent topicName="Entertain" typeVersion="1.0">
-   <topic language="en_US" path="Entertain/Entertain_enu.top"/>
+   <topic path="Entertain/Entertain_enu.top" language="en_US"/>
   </dialogContent>
   <dialogContent topicName="Package" typeVersion="1.0">
-   <topic language="en_US" path="Package/Package_enu.top"/>
+   <topic path="Package/Package_enu.top" language="en_US"/>
   </dialogContent>
   <dialogContent topicName="Guidance" typeVersion="1.0">
-   <topic language="en_US" path="Guidance/Guidance_enu.top"/>
+   <topic path="Guidance/Guidance_enu.top" language="en_US"/>
   </dialogContent>
   <dialogContent topicName="Confirm" typeVersion="1.0">
-   <topic language="en_US" path="Confirm/Confirm_enu.top"/>
+   <topic path="Confirm/Confirm_enu.top" language="en_US"/>
   </dialogContent>
   <dialogContent topicName="ready" typeVersion="1.0">
-   <topic language="en_US" path="ready/ready_enu.top"/>
+   <topic path="ready/ready_enu.top" language="en_US"/>
   </dialogContent>
  </contents>
  <requirements>
-  <naoqiRequirement maxVersion="2.5" minVersion="2.5"/>
+  <naoqiRequirement minVersion="2.5" maxVersion="2.5"/>
   <robotRequirement model="JULIETTE"/>
  </requirements>
 </package>
